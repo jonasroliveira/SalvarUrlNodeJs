@@ -1,0 +1,92 @@
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+  }
+
+  main {
+      max-width: 100%;
+  }
+
+  h2 {
+      color: #8d7e6e;
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+
+  .textBox {
+      width: 80%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  .botao {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2b1803;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  a {
+      text-decoration: none;
+      color: #2f251a;
+  }
+
+  a:hover {
+      text-decoration: underline;
+      color: brown;
+  }
+
+  table {
+      width: 100%;
+      word-break: break-word;
+      border: none;
+  }
+
+  td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+
+  th {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      background-color: #f18004;
+      color: white;
+  }
+
+  tr:nth-child(even) {
+      background-color: #2f251a08;
+  }
+
+  .thData {
+      width: 15%;
+  }
+
+  .thAcao {
+      width: 60px;
+  }
+
+  .rolagemTable {
+      max-height: 650px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+  }
+
+  .rolagemTable table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+  .rolagemTable thead th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+  }

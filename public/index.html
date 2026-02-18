@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Salva URL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <main>
+        <h2>Salva URL</h2>
+
+        <form id="form">
+            <input class="textBox" type="text" id="url" placeholder="Cole a URL" required />
+            <button class="botao" type="submit">Submeter</button>
+        </form>
+
+        <h2>Histórico</h2>
+        <div class="rolagemTable">
+            <table id="tabela-urls" border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>URL</th>
+                        <th class="thData">Data</th>
+                        <th class="thAcao">Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="lista-urls">
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", configurarFormulario);
+        carregarHistorico();
+    </script>
+</body>
+
+</html>
